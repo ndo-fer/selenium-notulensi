@@ -1,0 +1,231 @@
+2025-07-11 13:11:28,417 - automation - INFO - Starting test execution
+2025-07-11 13:11:40,804 - automation - INFO - Starting test_successful_login_with_valid_credentials
+2025-07-11 13:11:40,804 - automation - INFO - STEP 1: Membuka landing page
+2025-07-11 13:11:43,324 - automation - INFO - Screenshot saved as screenshots/landing_page_20250711_131143.png
+2025-07-11 13:11:43,324 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-11 13:11:43,324 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-11 13:11:43,554 - automation - INFO - Successfully clicked the element
+2025-07-11 13:11:43,989 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250711_131143.png
+2025-07-11 13:11:43,990 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-11 13:11:43,990 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-11 13:11:44,144 - automation - INFO - Successfully clicked the element
+2025-07-11 13:11:44,494 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250711_131144.png
+2025-07-11 13:11:44,494 - automation - INFO - STEP 4: Mengisi form login
+2025-07-11 13:11:44,494 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-11 13:11:44,744 - automation - INFO - Text entered successfully
+2025-07-11 13:11:44,744 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-11 13:11:44,937 - automation - INFO - Text entered successfully
+2025-07-11 13:11:45,352 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250711_131145.png
+2025-07-11 13:11:45,354 - automation - INFO - STEP 5: Memverifikasi login berhasil
+2025-07-11 13:12:00,605 - automation - ERROR - Error in login flow: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xa144a3+62419]
+	GetHandleVerifier [0x0xa144e4+62484]
+	(No symbol) [0x0x852133]
+	(No symbol) [0x0x89a8fe]
+	(No symbol) [0x0x89ac9b]
+	(No symbol) [0x0x8e3052]
+	(No symbol) [0x0x8bf4b4]
+	(No symbol) [0x0x8e087a]
+	(No symbol) [0x0x8bf266]
+	(No symbol) [0x0x88e852]
+	(No symbol) [0x0x88f6f4]
+	GetHandleVerifier [0x0xc84793+2619075]
+	GetHandleVerifier [0x0xc7fbaa+2599642]
+	GetHandleVerifier [0x0xa3b04a+221050]
+	GetHandleVerifier [0x0xa2b2c8+156152]
+	GetHandleVerifier [0x0xa31c7d+183213]
+	GetHandleVerifier [0x0xa1c388+94904]
+	GetHandleVerifier [0x0xa1c512+95298]
+	GetHandleVerifier [0x0xa0766a+9626]
+	BaseThreadInitThunk [0x0x74e97ba9+25]
+	RtlInitializeExceptionChain [0x0x7740c36b+107]
+	RtlClearBits [0x0x7740c2ef+191]
+
+2025-07-11 13:12:00,702 - automation - INFO - Screenshot saved as screenshots/error_during_login_20250711_131200.png
+2025-07-11 13:12:00,779 - automation - INFO - Test completed. Cleaning up...
+2025-07-11 13:12:07,923 - automation - INFO - Starting test with email: valid@example.com, password: wrongpass
+2025-07-11 13:12:07,924 - automation - INFO - STEP 1: Membuka landing page
+2025-07-11 13:12:10,044 - automation - INFO - Screenshot saved as screenshots/landing_page_20250711_131209.png
+2025-07-11 13:12:10,044 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-11 13:12:10,044 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-11 13:12:10,195 - automation - INFO - Successfully clicked the element
+2025-07-11 13:12:10,605 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250711_131210.png
+2025-07-11 13:12:10,605 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-11 13:12:10,605 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-11 13:12:10,834 - automation - INFO - Successfully clicked the element
+2025-07-11 13:12:11,167 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250711_131210.png
+2025-07-11 13:12:11,167 - automation - INFO - STEP 4: Mengisi form login
+2025-07-11 13:12:11,167 - automation - INFO - Entering text 'valid@example.com' in element: ('xpath', "//input[@type='email']")
+2025-07-11 13:12:11,369 - automation - INFO - Text entered successfully
+2025-07-11 13:12:11,370 - automation - INFO - Entering text 'wrongpass' in element: ('xpath', "//input[@type='password']")
+2025-07-11 13:12:11,550 - automation - INFO - Text entered successfully
+2025-07-11 13:12:11,943 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250711_131211.png
+2025-07-11 13:12:11,943 - automation - INFO - STEP 5: Memverifikasi login berhasil
+2025-07-11 13:12:27,124 - automation - ERROR - Error in login flow: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xa144a3+62419]
+	GetHandleVerifier [0x0xa144e4+62484]
+	(No symbol) [0x0x852133]
+	(No symbol) [0x0x89a8fe]
+	(No symbol) [0x0x89ac9b]
+	(No symbol) [0x0x8e3052]
+	(No symbol) [0x0x8bf4b4]
+	(No symbol) [0x0x8e087a]
+	(No symbol) [0x0x8bf266]
+	(No symbol) [0x0x88e852]
+	(No symbol) [0x0x88f6f4]
+	GetHandleVerifier [0x0xc84793+2619075]
+	GetHandleVerifier [0x0xc7fbaa+2599642]
+	GetHandleVerifier [0x0xa3b04a+221050]
+	GetHandleVerifier [0x0xa2b2c8+156152]
+	GetHandleVerifier [0x0xa31c7d+183213]
+	GetHandleVerifier [0x0xa1c388+94904]
+	GetHandleVerifier [0x0xa1c512+95298]
+	GetHandleVerifier [0x0xa0766a+9626]
+	BaseThreadInitThunk [0x0x74e97ba9+25]
+	RtlInitializeExceptionChain [0x0x7740c36b+107]
+	RtlClearBits [0x0x7740c2ef+191]
+
+2025-07-11 13:12:27,305 - automation - INFO - Screenshot saved as screenshots/error_during_login_20250711_131227.png
+2025-07-11 13:12:27,305 - automation - INFO - Test passed - login failed as expected with invalid credentials
+2025-07-11 13:12:27,306 - automation - INFO - Test completed. Cleaning up...
+2025-07-11 13:12:33,804 - automation - INFO - Starting test with email: invalid@example.com, password: password123
+2025-07-11 13:12:33,804 - automation - INFO - STEP 1: Membuka landing page
+2025-07-11 13:12:36,104 - automation - INFO - Screenshot saved as screenshots/landing_page_20250711_131235.png
+2025-07-11 13:12:36,104 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-11 13:12:36,104 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-11 13:12:36,229 - automation - INFO - Successfully clicked the element
+2025-07-11 13:12:36,618 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250711_131236.png
+2025-07-11 13:12:36,618 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-11 13:12:36,618 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-11 13:12:36,785 - automation - INFO - Successfully clicked the element
+2025-07-11 13:12:37,220 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250711_131236.png
+2025-07-11 13:12:37,221 - automation - INFO - STEP 4: Mengisi form login
+2025-07-11 13:12:37,221 - automation - INFO - Entering text 'invalid@example.com' in element: ('xpath', "//input[@type='email']")
+2025-07-11 13:12:37,498 - automation - INFO - Text entered successfully
+2025-07-11 13:12:37,500 - automation - INFO - Entering text 'password123' in element: ('xpath', "//input[@type='password']")
+2025-07-11 13:12:37,700 - automation - INFO - Text entered successfully
+2025-07-11 13:12:38,062 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250711_131237.png
+2025-07-11 13:12:38,062 - automation - INFO - STEP 5: Memverifikasi login berhasil
+2025-07-11 13:12:53,245 - automation - ERROR - Error in login flow: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xa144a3+62419]
+	GetHandleVerifier [0x0xa144e4+62484]
+	(No symbol) [0x0x852133]
+	(No symbol) [0x0x89a8fe]
+	(No symbol) [0x0x89ac9b]
+	(No symbol) [0x0x8e3052]
+	(No symbol) [0x0x8bf4b4]
+	(No symbol) [0x0x8e087a]
+	(No symbol) [0x0x8bf266]
+	(No symbol) [0x0x88e852]
+	(No symbol) [0x0x88f6f4]
+	GetHandleVerifier [0x0xc84793+2619075]
+	GetHandleVerifier [0x0xc7fbaa+2599642]
+	GetHandleVerifier [0x0xa3b04a+221050]
+	GetHandleVerifier [0x0xa2b2c8+156152]
+	GetHandleVerifier [0x0xa31c7d+183213]
+	GetHandleVerifier [0x0xa1c388+94904]
+	GetHandleVerifier [0x0xa1c512+95298]
+	GetHandleVerifier [0x0xa0766a+9626]
+	BaseThreadInitThunk [0x0x74e97ba9+25]
+	RtlInitializeExceptionChain [0x0x7740c36b+107]
+	RtlClearBits [0x0x7740c2ef+191]
+
+2025-07-11 13:12:53,437 - automation - INFO - Screenshot saved as screenshots/error_during_login_20250711_131253.png
+2025-07-11 13:12:53,438 - automation - INFO - Test passed - login failed as expected with invalid credentials
+2025-07-11 13:12:53,439 - automation - INFO - Test completed. Cleaning up...
+2025-07-11 13:12:59,394 - automation - INFO - Starting test with email: , password: password123
+2025-07-11 13:12:59,394 - automation - INFO - STEP 1: Membuka landing page
+2025-07-11 13:13:04,578 - automation - INFO - Screenshot saved as screenshots/landing_page_20250711_131304.png
+2025-07-11 13:13:04,578 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-11 13:13:04,578 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-11 13:13:05,756 - automation - INFO - Successfully clicked the element
+2025-07-11 13:13:06,238 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250711_131305.png
+2025-07-11 13:13:06,238 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-11 13:13:06,238 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-11 13:13:06,514 - automation - INFO - Successfully clicked the element
+2025-07-11 13:13:06,754 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250711_131306.png
+2025-07-11 13:13:06,755 - automation - INFO - STEP 4: Mengisi form login
+2025-07-11 13:13:06,757 - automation - INFO - Entering text '' in element: ('xpath', "//input[@type='email']")
+2025-07-11 13:13:06,914 - automation - INFO - Text entered successfully
+2025-07-11 13:13:06,914 - automation - INFO - Entering text 'password123' in element: ('xpath', "//input[@type='password']")
+2025-07-11 13:13:07,066 - automation - INFO - Text entered successfully
+2025-07-11 13:13:07,394 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250711_131307.png
+2025-07-11 13:13:07,394 - automation - INFO - STEP 5: Memverifikasi login berhasil
+2025-07-11 13:13:22,560 - automation - ERROR - Error in login flow: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xa144a3+62419]
+	GetHandleVerifier [0x0xa144e4+62484]
+	(No symbol) [0x0x852133]
+	(No symbol) [0x0x89a8fe]
+	(No symbol) [0x0x89ac9b]
+	(No symbol) [0x0x8e3052]
+	(No symbol) [0x0x8bf4b4]
+	(No symbol) [0x0x8e087a]
+	(No symbol) [0x0x8bf266]
+	(No symbol) [0x0x88e852]
+	(No symbol) [0x0x88f6f4]
+	GetHandleVerifier [0x0xc84793+2619075]
+	GetHandleVerifier [0x0xc7fbaa+2599642]
+	GetHandleVerifier [0x0xa3b04a+221050]
+	GetHandleVerifier [0x0xa2b2c8+156152]
+	GetHandleVerifier [0x0xa31c7d+183213]
+	GetHandleVerifier [0x0xa1c388+94904]
+	GetHandleVerifier [0x0xa1c512+95298]
+	GetHandleVerifier [0x0xa0766a+9626]
+	BaseThreadInitThunk [0x0x74e97ba9+25]
+	RtlInitializeExceptionChain [0x0x7740c36b+107]
+	RtlClearBits [0x0x7740c2ef+191]
+
+2025-07-11 13:13:22,756 - automation - INFO - Screenshot saved as screenshots/error_during_login_20250711_131322.png
+2025-07-11 13:13:22,758 - automation - INFO - Test passed - login failed as expected with invalid credentials
+2025-07-11 13:13:22,759 - automation - INFO - Test completed. Cleaning up...
+2025-07-11 13:13:30,206 - automation - INFO - Starting test with email: valid@example.com, password: 
+2025-07-11 13:13:30,206 - automation - INFO - STEP 1: Membuka landing page
+2025-07-11 13:13:33,664 - automation - INFO - Screenshot saved as screenshots/landing_page_20250711_131333.png
+2025-07-11 13:13:33,664 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-11 13:13:33,664 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-11 13:13:33,808 - automation - INFO - Successfully clicked the element
+2025-07-11 13:13:34,246 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250711_131333.png
+2025-07-11 13:13:34,247 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-11 13:13:34,247 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-11 13:13:34,421 - automation - INFO - Successfully clicked the element
+2025-07-11 13:13:34,745 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250711_131334.png
+2025-07-11 13:13:34,745 - automation - INFO - STEP 4: Mengisi form login
+2025-07-11 13:13:34,745 - automation - INFO - Entering text 'valid@example.com' in element: ('xpath', "//input[@type='email']")
+2025-07-11 13:13:34,943 - automation - INFO - Text entered successfully
+2025-07-11 13:13:34,944 - automation - INFO - Entering text '' in element: ('xpath', "//input[@type='password']")
+2025-07-11 13:13:35,065 - automation - INFO - Text entered successfully
+2025-07-11 13:13:35,397 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250711_131335.png
+2025-07-11 13:13:35,397 - automation - INFO - STEP 5: Memverifikasi login berhasil
+2025-07-11 13:13:50,592 - automation - ERROR - Error in login flow: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xa144a3+62419]
+	GetHandleVerifier [0x0xa144e4+62484]
+	(No symbol) [0x0x852133]
+	(No symbol) [0x0x89a8fe]
+	(No symbol) [0x0x89ac9b]
+	(No symbol) [0x0x8e3052]
+	(No symbol) [0x0x8bf4b4]
+	(No symbol) [0x0x8e087a]
+	(No symbol) [0x0x8bf266]
+	(No symbol) [0x0x88e852]
+	(No symbol) [0x0x88f6f4]
+	GetHandleVerifier [0x0xc84793+2619075]
+	GetHandleVerifier [0x0xc7fbaa+2599642]
+	GetHandleVerifier [0x0xa3b04a+221050]
+	GetHandleVerifier [0x0xa2b2c8+156152]
+	GetHandleVerifier [0x0xa31c7d+183213]
+	GetHandleVerifier [0x0xa1c388+94904]
+	GetHandleVerifier [0x0xa1c512+95298]
+	GetHandleVerifier [0x0xa0766a+9626]
+	BaseThreadInitThunk [0x0x74e97ba9+25]
+	RtlInitializeExceptionChain [0x0x7740c36b+107]
+	RtlClearBits [0x0x7740c2ef+191]
+
+2025-07-11 13:13:50,775 - automation - INFO - Screenshot saved as screenshots/error_during_login_20250711_131350.png
+2025-07-11 13:13:50,776 - automation - INFO - Test passed - login failed as expected with invalid credentials
+2025-07-11 13:13:50,777 - automation - INFO - Test completed. Cleaning up...
+2025-07-11 13:13:52,934 - automation - INFO - Test execution completed
