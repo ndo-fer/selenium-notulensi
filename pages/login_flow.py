@@ -51,6 +51,36 @@ class LoginFlow(BasePage):
             self.take_screenshot("dashboard_page")
             return True
             
+            self._handle_post_login_modals()
+            
+        except Exception as e:
+            self.base_page.take_screenshot("login_error")
+            raise
+
+    def _handle_post_login_modals(self):
+        """Handle any post-login modals"""
+        try:
+            # Wait for dashboard to load completely
+            self.base_page.wait.until(
+                EC.presence_of_element_located((By.ID, "dashboardView"))
+            )
+
+            # Dismiss modal if appears (with multiple fallback options)
+            modal_closed = (
+                self.base_page.dismiss_modal_if_exists((By.ID, "notNowButton")) or
+                self.base_page.dismiss_modal_if_exists((By.XPATH, "//button[contains(.,'Not Now')]")) or
+                self.base_page.dismiss_modal_if_exists((By.CSS_SELECTOR, "[data-testid='modal-close-btn']"))
+            )
+
+            if modal_closed:
+                self.base_page.logger.info("Post-login modal dismissed successfully")
+            else:
+                self.base_page.logger.info("No post-login modal appeared")
+
+            # Additional stabilization wait
+            self.base_page.wait.until(
+                EC.invisibility_of_element_located((By.CSS_SELECTOR, ".modal-backdrop"))
+            )
         except Exception as e:
             self.logger.error(f"Error in login flow: {str(e)}")
             self.take_screenshot("error_during_login")

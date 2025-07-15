@@ -59,3 +59,24 @@ class BasePage:
             return self.wait.until(EC.visibility_of_element_located(by_locator)) is not None
         except:
             return False
+    
+    def dismiss_modal_if_exists(self, by_locator, timeout=10):
+        """
+        Safely dismiss modal if it appears with proper wait
+        Usage: page.dismiss_modal_if_exists((By.ID, "notNowButton"))
+        """
+        try:
+            element = WebDriverWait(self.driver, timeout).until(
+                EC.element_to_be_clickable(by_locator)
+            )
+            element.click()
+            self.logger.info(f"Dismissed modal with locator: {by_locator}")
+            return True
+        except Exception as e:
+            from selenium.common.exceptions import TimeoutException
+            if isinstance(e, TimeoutException):
+                self.logger.info("No modal found to dismiss")
+                return False
+            else:
+                self.logger.error(f"Error while dismissing modal: {str(e)}")
+                raise
