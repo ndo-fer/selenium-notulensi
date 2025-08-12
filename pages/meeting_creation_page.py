@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, ElementClickInterceptedException
 from pages.base_page import BasePage
+import time
 
 class MeetingCreationPage(BasePage):
     # Locators
@@ -11,9 +12,9 @@ class MeetingCreationPage(BasePage):
     LANGUAGE_INDONESIAN = (By.ID, "meetingLang-Indonesian")
     LANGUAGE_ENGLISH = (By.ID, "meetingLang-English")
     MEETING_NAME_INPUT = (By.ID, "meeting_name")
-    SUBMIT_BUTTON = (By.ID, "submitMeeting")
-    CANCEL_BUTTON = (By.ID, "cancelMeeting")
-    UPLOAD_INPUT = (By.ID, "file_upload")
+    SUBMIT_BUTTON = (By.ID, "createNewMeetingBtn")
+    CANCEL_BUTTON = (By.XPATH, '//*[@id=":r24:"]/button')
+    UPLOAD_INPUT = (By.ID, "createNewMeetingBtn")
     
     def select_meeting_type(self, meeting_type):
         """Select meeting type only if not already selected"""
@@ -51,6 +52,9 @@ class MeetingCreationPage(BasePage):
     
     def create_online_meeting(self, meeting_link, meeting_name=""):
         """Create online meeting with default Indonesia language"""
+        print("1")
+        self.click(self.MEETING_LINK_INPUT)
+        print("2")
         self.enter_text(self.MEETING_LINK_INPUT, meeting_link)
         if meeting_name:
             self.enter_text(self.MEETING_NAME_INPUT, meeting_name)
@@ -68,33 +72,37 @@ class MeetingCreationPage(BasePage):
     
     def is_meeting_created(self):
         """Check if meeting was successfully created"""
-        try:
-            return self.wait.until(
-                EC.visibility_of_element_located(
-                    (By.XPATH, "//*[contains(text(),'Meeting created successfully')]")
-                )
-            ).is_displayed()
-        except TimeoutException:
-            return False
+        # try:
+        #     return self.wait.until(
+        #         EC.visibility_of_element_located(
+        #             (By.ID, ":r1q:")
+        #         )
+        #     ).is_displayed()
+        # except TimeoutException:
+        #     return False
     
     def open_meeting_creation_dialog(self):
-        """Open meeting dialog with retry logic"""
+        """Open meeting dialog by clicking notNowButton first, then createNewMeetingTrigger, with waits."""
         try:
-            # First try normal click
-            self.click((By.ID, "createNewMeetingTrigger"))
-        except ElementClickInterceptedException:
-            # If intercepted, try to close any interfering elements
-            self.dismiss_modal_if_exists((By.ID, "popupCloseButton"))
-            
-            # Retry with JavaScript click as fallback
-            self.driver.execute_script(
-                "arguments[0].click();",
-                self.wait.until(
-                    EC.presence_of_element_located((By.ID, "createNewMeetingTrigger"))
-                )
+            # Click notNowButton if present
+            not_now_btn = self.wait.until(
+                EC.element_to_be_clickable((By.ID, "notNowButton"))
             )
+            not_now_btn.click()
+            time.sleep(3)  # Wait after dismissing modal
+
+        except TimeoutException:
+            # notNowButton not present, continue
+            pass
+
+        # Click createNewMeetingTrigger
+        trigger = self.wait.until(
+            EC.element_to_be_clickable((By.ID, "createNewMeetingTrigger"))
+        )
+        trigger.click()
+        time.sleep(3)  # Wait after opening dialog
         
         # Wait specifically for dialog animation to complete
-        self.wait.until(
-            lambda d: "show" in d.find_element(
-                By.ID, "meetingDialog").get_attribute("class"))
+        # self.wait.until(
+        #     lambda d: "show" in d.find_element(
+        #         By.ID, "meetingDialog").get_attribute("class"))

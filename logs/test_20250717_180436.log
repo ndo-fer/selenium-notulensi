@@ -1,0 +1,18 @@
+2025-07-17 18:04:36,236 - automation - INFO - Starting test execution
+2025-07-17 18:04:40,990 - automation - INFO - STEP 1: Membuka landing page
+2025-07-17 18:04:45,868 - automation - INFO - Screenshot saved as screenshots/landing_page_20250717_180445.png
+2025-07-17 18:04:45,868 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-17 18:04:45,868 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-17 18:04:46,027 - automation - INFO - Successfully clicked the element
+2025-07-17 18:04:46,477 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250717_180446.png
+2025-07-17 18:04:46,477 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-17 18:04:46,477 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-17 18:04:46,723 - automation - INFO - Successfully clicked the element
+2025-07-17 18:04:47,157 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250717_180446.png
+2025-07-17 18:04:47,158 - automation - INFO - STEP 4: Mengisi form login
+2025-07-17 18:04:47,158 - automation - INFO - Entering text 'valid@email.com' in element: ('xpath', "//input[@type='email']")
+2025-07-17 18:04:47,426 - automation - INFO - Text entered successfully
+2025-07-17 18:04:47,429 - automation - INFO - Entering text 'validPassword' in element: ('xpath', "//input[@type='password']")
+2025-07-17 18:04:47,646 - automation - INFO - Text entered successfully
+2025-07-17 18:04:47,993 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250717_180447.png
+2025-07-17 18:04:48,234 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250717_180447.png

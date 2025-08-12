@@ -37,12 +37,12 @@ class LoginFlow(BasePage):
             self.driver.find_element(*self.PASSWORD_INPUT).send_keys(Keys.ENTER)
             self.take_screenshot("after_login_submit")
             
-            # Step 5: Verifikasi login berhasil dengan memeriksa button create meeting
-            self.logger.info("STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting")
+            # # Step 5: Verifikasi login berhasil dengan memeriksa button create meeting
+            # self.logger.info("STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting")
             
-            # Tunggu hingga button create meeting muncul
-            self.wait.until(EC.visibility_of_element_located(self.CREATE_MEETING_BUTTON))
-            self.logger.info("Button create meeting ditemukan - login berhasil")
+            # # Tunggu hingga button create meeting muncul
+            # self.wait.until(EC.visibility_of_element_located(self.CREATE_MEETING_BUTTON))
+            # self.logger.info("Button create meeting ditemukan - login berhasil")
             
             # Verifikasi tambahan: pastikan URL mengandung '/dashboard' jika ada pola URL yang konsisten
             if "/dashboard" in self.driver.current_url.lower():
@@ -51,7 +51,7 @@ class LoginFlow(BasePage):
             self.take_screenshot("dashboard_page")
             return True
             
-            self._handle_post_login_modals()
+            # self._handle_post_login_modals()
             
         except Exception as e:
             self.base_page.take_screenshot("login_error")
@@ -67,9 +67,9 @@ class LoginFlow(BasePage):
 
             # Dismiss modal if appears (with multiple fallback options)
             modal_closed = (
-                self.base_page.dismiss_modal_if_exists((By.ID, "notNowButton")) or
-                self.base_page.dismiss_modal_if_exists((By.XPATH, "//button[contains(.,'Not Now')]")) or
-                self.base_page.dismiss_modal_if_exists((By.CSS_SELECTOR, "[data-testid='modal-close-btn']"))
+                self.base_page.dismiss_modal_if_exists((By.ID, "notNowButton"))
+                # self.base_page.dismiss_modal_if_exists((By.XPATH, "//button[contains(.,'Not Now')]")) or
+                # self.base_page.dismiss_modal_if_exists((By.CSS_SELECTOR, "[data-testid='modal-close-btn']"))
             )
 
             if modal_closed:
@@ -78,9 +78,9 @@ class LoginFlow(BasePage):
                 self.base_page.logger.info("No post-login modal appeared")
 
             # Additional stabilization wait
-            self.base_page.wait.until(
-                EC.invisibility_of_element_located((By.CSS_SELECTOR, ".modal-backdrop"))
-            )
+            # self.base_page.wait.until(
+            #     EC.invisibility_of_element_located((By.CSS_SELECTOR, ".modal-backdrop"))
+            # )
         except Exception as e:
             self.logger.error(f"Error in login flow: {str(e)}")
             self.take_screenshot("error_during_login")

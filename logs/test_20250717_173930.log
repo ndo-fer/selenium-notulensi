@@ -1,0 +1,46 @@
+2025-07-17 17:39:30,240 - automation - INFO - Starting test execution
+2025-07-17 17:39:34,909 - automation - INFO - STEP 1: Membuka landing page
+2025-07-17 17:39:37,238 - automation - INFO - Screenshot saved as screenshots/landing_page_20250717_173937.png
+2025-07-17 17:39:37,238 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-17 17:39:37,239 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-17 17:39:37,450 - automation - INFO - Successfully clicked the element
+2025-07-17 17:39:37,951 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250717_173937.png
+2025-07-17 17:39:37,951 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-17 17:39:37,952 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-17 17:39:38,246 - automation - INFO - Successfully clicked the element
+2025-07-17 17:39:38,648 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250717_173938.png
+2025-07-17 17:39:38,648 - automation - INFO - STEP 4: Mengisi form login
+2025-07-17 17:39:38,650 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-17 17:39:38,940 - automation - INFO - Text entered successfully
+2025-07-17 17:39:38,940 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-17 17:39:39,203 - automation - INFO - Text entered successfully
+2025-07-17 17:39:39,551 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250717_173939.png
+2025-07-17 17:39:39,551 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-17 17:39:40,591 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-17 17:39:40,608 - automation - INFO - Berada di halaman dashboard
+2025-07-17 17:39:40,743 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250717_173940.png
+2025-07-17 17:39:40,743 - automation - INFO - Mencari dan menunggu tombol 'Buat Rapat Baru' untuk bisa diklik.
+2025-07-17 17:39:40,771 - automation - INFO - Tombol dapat diklik. Melakukan klik.
+2025-07-17 17:39:48,373 - automation - INFO - STEP 1: Membuka landing page
+2025-07-17 17:39:50,952 - automation - INFO - Screenshot saved as screenshots/landing_page_20250717_173950.png
+2025-07-17 17:39:50,952 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-17 17:39:50,953 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-17 17:39:51,163 - automation - INFO - Successfully clicked the element
+2025-07-17 17:39:51,618 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250717_173951.png
+2025-07-17 17:39:51,619 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-17 17:39:51,619 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-17 17:39:51,904 - automation - INFO - Successfully clicked the element
+2025-07-17 17:39:52,288 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250717_173951.png
+2025-07-17 17:39:52,288 - automation - INFO - STEP 4: Mengisi form login
+2025-07-17 17:39:52,288 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-17 17:39:52,611 - automation - INFO - Text entered successfully
+2025-07-17 17:39:52,611 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-17 17:39:52,883 - automation - INFO - Text entered successfully
+2025-07-17 17:39:53,259 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250717_173953.png
+2025-07-17 17:39:53,259 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-17 17:39:54,340 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-17 17:39:54,348 - automation - INFO - Berada di halaman dashboard
+2025-07-17 17:39:54,529 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250717_173954.png
+2025-07-17 17:39:54,531 - automation - INFO - Mencari dan menunggu tombol 'Buat Rapat Baru' untuk bisa diklik.
+2025-07-17 17:39:54,573 - automation - INFO - Tombol dapat diklik. Melakukan klik.
+2025-07-17 17:39:57,237 - automation - INFO - Test execution completed

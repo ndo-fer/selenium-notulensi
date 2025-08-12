@@ -1,0 +1,37 @@
+2025-07-17 17:53:17,061 - automation - INFO - Starting test execution
+2025-07-17 17:53:21,767 - automation - INFO - STEP 1: Membuka landing page
+2025-07-17 17:53:26,406 - automation - INFO - Screenshot saved as screenshots/landing_page_20250717_175326.png
+2025-07-17 17:53:26,406 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-17 17:53:26,406 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-17 17:53:26,719 - automation - INFO - Successfully clicked the element
+2025-07-17 17:53:27,134 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250717_175326.png
+2025-07-17 17:53:27,136 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-17 17:53:27,138 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-17 17:53:27,388 - automation - INFO - Successfully clicked the element
+2025-07-17 17:53:27,807 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250717_175327.png
+2025-07-17 17:53:27,807 - automation - INFO - STEP 4: Mengisi form login
+2025-07-17 17:53:27,807 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-17 17:53:28,077 - automation - INFO - Text entered successfully
+2025-07-17 17:53:28,078 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-17 17:53:28,322 - automation - INFO - Text entered successfully
+2025-07-17 17:53:28,688 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250717_175328.png
+2025-07-17 17:53:28,688 - automation - ERROR - Error in login flow: 'LoginFlow' object has no attribute 'base_page'
+2025-07-17 17:53:28,888 - automation - INFO - Screenshot saved as screenshots/error_during_login_20250717_175328.png
+2025-07-17 17:53:35,424 - automation - INFO - STEP 1: Membuka landing page
+2025-07-17 17:53:39,642 - automation - INFO - Screenshot saved as screenshots/landing_page_20250717_175339.png
+2025-07-17 17:53:39,643 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-17 17:53:39,643 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-17 17:53:39,960 - automation - INFO - Successfully clicked the element
+2025-07-17 17:53:40,429 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250717_175339.png
+2025-07-17 17:53:40,429 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-17 17:53:40,430 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-17 17:53:40,717 - automation - INFO - Successfully clicked the element
+2025-07-17 17:53:41,150 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250717_175340.png
+2025-07-17 17:53:41,151 - automation - INFO - STEP 4: Mengisi form login
+2025-07-17 17:53:41,152 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-17 17:53:41,446 - automation - INFO - Text entered successfully
+2025-07-17 17:53:41,447 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-17 17:53:41,655 - automation - INFO - Text entered successfully
+2025-07-17 17:53:42,036 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250717_175341.png
+2025-07-17 17:53:42,036 - automation - ERROR - Error in login flow: 'LoginFlow' object has no attribute 'base_page'
+2025-07-17 17:53:42,251 - automation - INFO - Screenshot saved as screenshots/error_during_login_20250717_175342.png

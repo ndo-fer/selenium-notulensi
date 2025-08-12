@@ -1,0 +1,1041 @@
+2025-07-15 12:32:54,103 - automation - INFO - Starting test execution
+2025-07-15 12:32:58,219 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:33:01,729 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_123301.png
+2025-07-15 12:33:01,729 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:33:01,729 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:33:01,866 - automation - INFO - Successfully clicked the element
+2025-07-15 12:33:02,261 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_123301.png
+2025-07-15 12:33:02,261 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:33:02,261 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:33:02,425 - automation - INFO - Successfully clicked the element
+2025-07-15 12:33:02,634 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_123302.png
+2025-07-15 12:33:02,634 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:33:02,634 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:33:02,859 - automation - INFO - Text entered successfully
+2025-07-15 12:33:02,860 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:33:03,138 - automation - INFO - Text entered successfully
+2025-07-15 12:33:03,500 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_123303.png
+2025-07-15 12:33:03,500 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:33:06,603 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:33:06,652 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:33:06,770 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_123306.png
+2025-07-15 12:33:06,772 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:33:07,885 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:33:07,950 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:33:31,180 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:33:36,329 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_123336.png
+2025-07-15 12:33:36,329 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:33:36,329 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:33:36,479 - automation - INFO - Successfully clicked the element
+2025-07-15 12:33:36,898 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_123336.png
+2025-07-15 12:33:36,898 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:33:36,898 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:33:37,039 - automation - INFO - Successfully clicked the element
+2025-07-15 12:33:37,469 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_123337.png
+2025-07-15 12:33:37,469 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:33:37,469 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:33:37,699 - automation - INFO - Text entered successfully
+2025-07-15 12:33:37,699 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:33:37,893 - automation - INFO - Text entered successfully
+2025-07-15 12:33:38,295 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_123338.png
+2025-07-15 12:33:38,295 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:33:40,915 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:33:40,920 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:33:41,053 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_123340.png
+2025-07-15 12:33:41,054 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:33:42,158 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:33:42,225 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:34:05,425 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:34:07,910 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_123407.png
+2025-07-15 12:34:07,910 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:34:07,910 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:34:08,102 - automation - INFO - Successfully clicked the element
+2025-07-15 12:34:08,601 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_123408.png
+2025-07-15 12:34:08,602 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:34:08,602 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:34:08,810 - automation - INFO - Successfully clicked the element
+2025-07-15 12:34:09,211 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_123408.png
+2025-07-15 12:34:09,211 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:34:09,211 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:34:09,441 - automation - INFO - Text entered successfully
+2025-07-15 12:34:09,441 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:34:09,621 - automation - INFO - Text entered successfully
+2025-07-15 12:34:09,990 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_123409.png
+2025-07-15 12:34:09,990 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:34:11,046 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:34:11,051 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:34:11,201 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_123411.png
+2025-07-15 12:34:11,201 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:34:12,285 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:34:12,349 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:34:35,453 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:34:38,283 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_123438.png
+2025-07-15 12:34:38,283 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:34:38,288 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:34:38,460 - automation - INFO - Successfully clicked the element
+2025-07-15 12:34:38,879 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_123438.png
+2025-07-15 12:34:38,880 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:34:38,880 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:34:39,035 - automation - INFO - Successfully clicked the element
+2025-07-15 12:34:39,503 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_123439.png
+2025-07-15 12:34:39,503 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:34:39,504 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:34:39,720 - automation - INFO - Text entered successfully
+2025-07-15 12:34:39,720 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:34:39,900 - automation - INFO - Text entered successfully
+2025-07-15 12:34:40,259 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_123440.png
+2025-07-15 12:34:40,259 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:34:41,047 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:34:41,089 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:34:41,245 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_123441.png
+2025-07-15 12:34:41,245 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:34:42,309 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:34:42,375 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:35:05,500 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:35:07,812 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_123507.png
+2025-07-15 12:35:07,812 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:35:07,812 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:35:07,960 - automation - INFO - Successfully clicked the element
+2025-07-15 12:35:08,435 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_123507.png
+2025-07-15 12:35:08,435 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:35:08,435 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:35:08,584 - automation - INFO - Successfully clicked the element
+2025-07-15 12:35:09,015 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_123508.png
+2025-07-15 12:35:09,015 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:35:09,016 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:35:09,238 - automation - INFO - Text entered successfully
+2025-07-15 12:35:09,238 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:35:09,422 - automation - INFO - Text entered successfully
+2025-07-15 12:35:09,780 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_123509.png
+2025-07-15 12:35:09,780 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:35:10,903 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:35:10,903 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:35:11,052 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_123510.png
+2025-07-15 12:35:11,052 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:35:12,122 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:35:12,184 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:35:35,300 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:35:38,250 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_123538.png
+2025-07-15 12:35:38,250 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:35:38,250 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:35:38,397 - automation - INFO - Successfully clicked the element
+2025-07-15 12:35:38,778 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_123538.png
+2025-07-15 12:35:38,779 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:35:38,779 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:35:38,913 - automation - INFO - Successfully clicked the element
+2025-07-15 12:35:39,304 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_123538.png
+2025-07-15 12:35:39,306 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:35:39,306 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:35:39,531 - automation - INFO - Text entered successfully
+2025-07-15 12:35:39,531 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:35:39,719 - automation - INFO - Text entered successfully
+2025-07-15 12:35:40,079 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_123539.png
+2025-07-15 12:35:40,079 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:35:41,110 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:35:41,110 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:35:41,244 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_123541.png
+2025-07-15 12:35:41,244 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:35:42,293 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:35:42,358 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:36:05,461 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:36:10,793 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_123610.png
+2025-07-15 12:36:10,793 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:36:10,793 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:36:10,923 - automation - INFO - Successfully clicked the element
+2025-07-15 12:36:11,319 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_123610.png
+2025-07-15 12:36:11,319 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:36:11,319 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:36:11,448 - automation - INFO - Successfully clicked the element
+2025-07-15 12:36:11,779 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_123611.png
+2025-07-15 12:36:11,779 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:36:11,779 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:36:12,109 - automation - INFO - Text entered successfully
+2025-07-15 12:36:12,109 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:36:12,292 - automation - INFO - Text entered successfully
+2025-07-15 12:36:12,659 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_123612.png
+2025-07-15 12:36:12,659 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:36:16,382 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:36:16,385 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:36:16,481 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_123616.png
+2025-07-15 12:36:16,481 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:36:17,540 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:36:17,605 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:36:39,639 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:36:42,859 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_123642.png
+2025-07-15 12:36:42,859 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:36:42,859 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:36:42,993 - automation - INFO - Successfully clicked the element
+2025-07-15 12:36:43,401 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_123642.png
+2025-07-15 12:36:43,401 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:36:43,401 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:36:43,550 - automation - INFO - Successfully clicked the element
+2025-07-15 12:36:43,969 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_123643.png
+2025-07-15 12:36:43,969 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:36:43,969 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:36:44,202 - automation - INFO - Text entered successfully
+2025-07-15 12:36:44,202 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:36:44,398 - automation - INFO - Text entered successfully
+2025-07-15 12:36:44,764 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_123644.png
+2025-07-15 12:36:44,764 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:36:45,537 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:36:45,646 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:36:45,807 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_123645.png
+2025-07-15 12:36:45,809 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:36:46,912 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:36:46,986 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:37:08,930 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:37:13,764 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_123713.png
+2025-07-15 12:37:13,768 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:37:13,768 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:37:13,910 - automation - INFO - Successfully clicked the element
+2025-07-15 12:37:14,358 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_123713.png
+2025-07-15 12:37:14,358 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:37:14,358 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:37:14,518 - automation - INFO - Successfully clicked the element
+2025-07-15 12:37:14,886 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_123714.png
+2025-07-15 12:37:14,886 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:37:14,887 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:37:15,127 - automation - INFO - Text entered successfully
+2025-07-15 12:37:15,127 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:37:15,350 - automation - INFO - Text entered successfully
+2025-07-15 12:37:15,723 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_123715.png
+2025-07-15 12:37:15,723 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:37:16,834 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:37:16,839 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:37:16,950 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_123716.png
+2025-07-15 12:37:16,950 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:37:17,990 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:37:18,059 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:37:39,999 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:37:44,620 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_123744.png
+2025-07-15 12:37:44,620 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:37:44,620 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:37:44,770 - automation - INFO - Successfully clicked the element
+2025-07-15 12:37:45,159 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_123744.png
+2025-07-15 12:37:45,159 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:37:45,159 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:37:45,314 - automation - INFO - Successfully clicked the element
+2025-07-15 12:37:45,790 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_123745.png
+2025-07-15 12:37:45,790 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:37:45,790 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:37:46,010 - automation - INFO - Text entered successfully
+2025-07-15 12:37:46,010 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:37:46,184 - automation - INFO - Text entered successfully
+2025-07-15 12:37:46,544 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_123746.png
+2025-07-15 12:37:46,545 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:37:47,649 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:37:47,652 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:37:47,759 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_123747.png
+2025-07-15 12:37:47,759 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:37:48,795 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:37:48,862 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:38:10,894 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:38:15,499 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_123815.png
+2025-07-15 12:38:15,499 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:38:15,499 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:38:15,642 - automation - INFO - Successfully clicked the element
+2025-07-15 12:38:16,060 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_123815.png
+2025-07-15 12:38:16,060 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:38:16,060 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:38:16,209 - automation - INFO - Successfully clicked the element
+2025-07-15 12:38:16,680 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_123816.png
+2025-07-15 12:38:16,680 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:38:16,680 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:38:16,912 - automation - INFO - Text entered successfully
+2025-07-15 12:38:16,912 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:38:17,099 - automation - INFO - Text entered successfully
+2025-07-15 12:38:17,447 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_123817.png
+2025-07-15 12:38:17,447 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:38:18,479 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:38:18,488 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:38:18,630 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_123818.png
+2025-07-15 12:38:18,630 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:38:19,691 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:38:19,758 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:38:41,735 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:38:46,392 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_123846.png
+2025-07-15 12:38:46,392 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:38:46,392 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:38:46,550 - automation - INFO - Successfully clicked the element
+2025-07-15 12:38:46,985 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_123846.png
+2025-07-15 12:38:46,988 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:38:46,988 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:38:47,136 - automation - INFO - Successfully clicked the element
+2025-07-15 12:38:47,482 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_123847.png
+2025-07-15 12:38:47,482 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:38:47,482 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:38:47,710 - automation - INFO - Text entered successfully
+2025-07-15 12:38:47,710 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:38:47,892 - automation - INFO - Text entered successfully
+2025-07-15 12:38:48,260 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_123847.png
+2025-07-15 12:38:48,260 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:38:49,290 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:38:49,293 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:38:49,440 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_123849.png
+2025-07-15 12:38:49,440 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:38:50,486 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:38:50,551 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:39:12,604 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:39:21,480 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_123921.png
+2025-07-15 12:39:21,480 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:39:21,480 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:39:21,620 - automation - INFO - Successfully clicked the element
+2025-07-15 12:39:22,004 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_123921.png
+2025-07-15 12:39:22,008 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:39:22,008 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:39:22,149 - automation - INFO - Successfully clicked the element
+2025-07-15 12:39:22,500 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_123922.png
+2025-07-15 12:39:22,500 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:39:22,500 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:39:22,735 - automation - INFO - Text entered successfully
+2025-07-15 12:39:22,735 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:39:22,915 - automation - INFO - Text entered successfully
+2025-07-15 12:39:23,269 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_123923.png
+2025-07-15 12:39:23,269 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:39:26,856 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:39:26,860 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:39:27,001 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_123926.png
+2025-07-15 12:39:27,004 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:39:28,144 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:39:28,210 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:39:51,261 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:39:59,359 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_123959.png
+2025-07-15 12:39:59,359 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:39:59,359 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:39:59,501 - automation - INFO - Successfully clicked the element
+2025-07-15 12:39:59,889 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_123959.png
+2025-07-15 12:39:59,889 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:39:59,893 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:40:00,040 - automation - INFO - Successfully clicked the element
+2025-07-15 12:40:00,438 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_124000.png
+2025-07-15 12:40:00,438 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:40:00,438 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:40:00,694 - automation - INFO - Text entered successfully
+2025-07-15 12:40:00,695 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:40:00,922 - automation - INFO - Text entered successfully
+2025-07-15 12:40:01,305 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_124001.png
+2025-07-15 12:40:01,305 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:40:04,360 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:40:04,368 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:40:04,506 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_124004.png
+2025-07-15 12:40:04,507 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:40:05,610 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:40:05,675 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:40:28,733 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:40:33,053 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_124032.png
+2025-07-15 12:40:33,053 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:40:33,053 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:40:33,201 - automation - INFO - Successfully clicked the element
+2025-07-15 12:40:33,569 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_124033.png
+2025-07-15 12:40:33,569 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:40:33,569 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:40:33,714 - automation - INFO - Successfully clicked the element
+2025-07-15 12:40:34,159 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_124033.png
+2025-07-15 12:40:34,159 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:40:34,159 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:40:34,382 - automation - INFO - Text entered successfully
+2025-07-15 12:40:34,382 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:40:34,578 - automation - INFO - Text entered successfully
+2025-07-15 12:40:34,923 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_124034.png
+2025-07-15 12:40:34,928 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:40:35,960 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:40:35,968 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:40:36,108 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_124035.png
+2025-07-15 12:40:36,108 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:40:37,162 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:40:37,271 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:41:00,296 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:41:11,348 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_124111.png
+2025-07-15 12:41:11,349 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:41:11,349 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:41:11,488 - automation - INFO - Successfully clicked the element
+2025-07-15 12:41:11,866 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_124111.png
+2025-07-15 12:41:11,868 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:41:11,868 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:41:12,012 - automation - INFO - Successfully clicked the element
+2025-07-15 12:41:12,345 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_124112.png
+2025-07-15 12:41:12,345 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:41:12,345 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:41:12,569 - automation - INFO - Text entered successfully
+2025-07-15 12:41:12,570 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:41:12,760 - automation - INFO - Text entered successfully
+2025-07-15 12:41:13,123 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_124112.png
+2025-07-15 12:41:13,123 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:41:17,210 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:41:17,219 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:41:17,343 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_124117.png
+2025-07-15 12:41:17,343 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:41:18,446 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:41:18,515 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:41:41,528 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:41:49,101 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_124148.png
+2025-07-15 12:41:49,101 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:41:49,101 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:41:49,241 - automation - INFO - Successfully clicked the element
+2025-07-15 12:41:49,639 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_124149.png
+2025-07-15 12:41:49,639 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:41:49,639 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:41:49,778 - automation - INFO - Successfully clicked the element
+2025-07-15 12:41:50,189 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_124149.png
+2025-07-15 12:41:50,189 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:41:50,189 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:41:50,413 - automation - INFO - Text entered successfully
+2025-07-15 12:41:50,414 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:41:50,601 - automation - INFO - Text entered successfully
+2025-07-15 12:41:50,971 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_124150.png
+2025-07-15 12:41:50,971 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:41:54,534 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:41:54,539 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:41:54,698 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_124154.png
+2025-07-15 12:41:54,698 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:41:55,746 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:41:55,812 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:42:18,905 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:42:21,338 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_124221.png
+2025-07-15 12:42:21,339 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:42:21,339 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:42:21,482 - automation - INFO - Successfully clicked the element
+2025-07-15 12:42:21,998 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_124221.png
+2025-07-15 12:42:21,998 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:42:21,998 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:42:22,147 - automation - INFO - Successfully clicked the element
+2025-07-15 12:42:22,582 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_124222.png
+2025-07-15 12:42:22,588 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:42:22,588 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:42:22,819 - automation - INFO - Text entered successfully
+2025-07-15 12:42:22,819 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:42:23,006 - automation - INFO - Text entered successfully
+2025-07-15 12:42:23,409 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_124223.png
+2025-07-15 12:42:23,409 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:42:24,098 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:42:24,215 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:42:24,368 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_124224.png
+2025-07-15 12:42:24,368 - automation - INFO - Clicking on element: ('id', 'createNewMeetingTrigger')
+2025-07-15 12:42:25,436 - automation - ERROR - Failed to click element: Message: element click intercepted: Element <a class="tap-highlight-transparent no-underline active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-small w-full [&amp;>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover bg-notulensi-primary hover:opacity-100 data-[hover=true]:opacity-100 hover:bg-notulensi-primary-400 text-white font-medium" id="createNewMeetingTrigger" data-sentry-element="UIButton" data-sentry-source-file="DashboardLayout.tsx" tabindex="0" role="button" type="button">...</a> is not clickable at point (140, 108). Other element would receive the click: <div class="flex w-screen h-[100dvh] fixed inset-0 z-50 overflow-x-auto justify-center [--scale-enter:100%] [--scale-exit:100%] [--slide-enter:0px] [--slide-exit:80px] sm:[--scale-enter:100%] sm:[--scale-exit:103%] sm:[--slide-enter:0px] sm:[--slide-exit:0px] items-end sm:items-center" data-slot="wrapper" style="opacity: 1; transform: translateY(var(--slide-enter)) scale(var(--scale-enter)) translateZ(0);">...</div>
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x3a44a3+62419]
+	GetHandleVerifier [0x0x3a44e4+62484]
+	(No symbol) [0x0x1e2133]
+	(No symbol) [0x0x230c40]
+	(No symbol) [0x0x22effa]
+	(No symbol) [0x0x22cb57]
+	(No symbol) [0x0x22be14]
+	(No symbol) [0x0x2205c5]
+	(No symbol) [0x0x24f46c]
+	(No symbol) [0x0x220054]
+	(No symbol) [0x0x24f6e4]
+	(No symbol) [0x0x27087a]
+	(No symbol) [0x0x24f266]
+	(No symbol) [0x0x21e852]
+	(No symbol) [0x0x21f6f4]
+	GetHandleVerifier [0x0x614793+2619075]
+	GetHandleVerifier [0x0x60fbaa+2599642]
+	GetHandleVerifier [0x0x3cb04a+221050]
+	GetHandleVerifier [0x0x3bb2c8+156152]
+	GetHandleVerifier [0x0x3c1c7d+183213]
+	GetHandleVerifier [0x0x3ac388+94904]
+	GetHandleVerifier [0x0x3ac512+95298]
+	GetHandleVerifier [0x0x39766a+9626]
+	BaseThreadInitThunk [0x0x76557ba9+25]
+	RtlInitializeExceptionChain [0x0x776dc36b+107]
+	RtlClearBits [0x0x776dc2ef+191]
+
+2025-07-15 12:42:25,504 - automation - INFO - Dismissed modal with locator: ('id', 'notNowButton')
+2025-07-15 12:42:48,602 - automation - INFO - Starting test_successful_login_with_valid_credentials
+2025-07-15 12:42:48,603 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:42:53,328 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_124253.png
+2025-07-15 12:42:53,330 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:42:53,330 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:42:53,523 - automation - INFO - Successfully clicked the element
+2025-07-15 12:42:53,957 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_124253.png
+2025-07-15 12:42:53,958 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:42:53,958 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:42:54,101 - automation - INFO - Successfully clicked the element
+2025-07-15 12:42:54,589 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_124254.png
+2025-07-15 12:42:54,589 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:42:54,590 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:42:54,825 - automation - INFO - Text entered successfully
+2025-07-15 12:42:54,828 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:42:55,001 - automation - INFO - Text entered successfully
+2025-07-15 12:42:55,360 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_124255.png
+2025-07-15 12:42:55,368 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:42:56,409 - automation - INFO - Button create meeting ditemukan - login berhasil
+2025-07-15 12:42:56,418 - automation - INFO - Berada di halaman dashboard
+2025-07-15 12:42:56,562 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250715_124256.png
+2025-07-15 12:42:56,572 - automation - INFO - Successfully verified login and dashboard page
+2025-07-15 12:42:56,573 - automation - INFO - Test completed. Cleaning up...
+2025-07-15 12:43:01,308 - automation - INFO - Starting test with email: valid@example.com, password: wrongpass
+2025-07-15 12:43:01,309 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:43:05,500 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_124305.png
+2025-07-15 12:43:05,500 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:43:05,500 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:43:05,636 - automation - INFO - Successfully clicked the element
+2025-07-15 12:43:06,030 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_124305.png
+2025-07-15 12:43:06,030 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:43:06,031 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:43:06,179 - automation - INFO - Successfully clicked the element
+2025-07-15 12:43:06,599 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_124306.png
+2025-07-15 12:43:06,599 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:43:06,599 - automation - INFO - Entering text 'valid@example.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:43:06,780 - automation - INFO - Text entered successfully
+2025-07-15 12:43:06,780 - automation - INFO - Entering text 'wrongpass' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:43:06,965 - automation - INFO - Text entered successfully
+2025-07-15 12:43:07,336 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_124307.png
+2025-07-15 12:43:07,336 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:43:22,535 - automation - INFO - Test passed - login failed as expected with invalid credentials
+2025-07-15 12:43:22,535 - automation - INFO - Test completed. Cleaning up...
+2025-07-15 12:43:28,278 - automation - INFO - Starting test with email: invalid@example.com, password: password123
+2025-07-15 12:43:28,278 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:43:32,809 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_124332.png
+2025-07-15 12:43:32,809 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:43:32,809 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:43:32,941 - automation - INFO - Successfully clicked the element
+2025-07-15 12:43:33,348 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_124332.png
+2025-07-15 12:43:33,348 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:43:33,349 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:43:33,489 - automation - INFO - Successfully clicked the element
+2025-07-15 12:43:33,908 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_124333.png
+2025-07-15 12:43:33,908 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:43:33,908 - automation - INFO - Entering text 'invalid@example.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:43:34,090 - automation - INFO - Text entered successfully
+2025-07-15 12:43:34,090 - automation - INFO - Entering text 'password123' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:43:34,264 - automation - INFO - Text entered successfully
+2025-07-15 12:43:34,671 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_124334.png
+2025-07-15 12:43:34,671 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:43:49,844 - automation - INFO - Test passed - login failed as expected with invalid credentials
+2025-07-15 12:43:49,844 - automation - INFO - Test completed. Cleaning up...
+2025-07-15 12:43:55,749 - automation - INFO - Starting test with email: , password: password123
+2025-07-15 12:43:55,749 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:44:00,201 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_124400.png
+2025-07-15 12:44:00,201 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:44:00,201 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:44:00,359 - automation - INFO - Successfully clicked the element
+2025-07-15 12:44:00,760 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_124400.png
+2025-07-15 12:44:00,761 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:44:00,762 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:44:00,912 - automation - INFO - Successfully clicked the element
+2025-07-15 12:44:01,323 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_124400.png
+2025-07-15 12:44:01,323 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:44:01,323 - automation - INFO - Entering text '' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:44:01,422 - automation - INFO - Text entered successfully
+2025-07-15 12:44:01,423 - automation - INFO - Entering text 'password123' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:44:01,583 - automation - INFO - Text entered successfully
+2025-07-15 12:44:01,881 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_124401.png
+2025-07-15 12:44:01,881 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:44:17,052 - automation - INFO - Test passed - login failed as expected with invalid credentials
+2025-07-15 12:44:17,052 - automation - INFO - Test completed. Cleaning up...
+2025-07-15 12:44:23,113 - automation - INFO - Starting test with email: valid@example.com, password: 
+2025-07-15 12:44:23,113 - automation - INFO - STEP 1: Membuka landing page
+2025-07-15 12:44:31,899 - automation - INFO - Screenshot saved as screenshots/landing_page_20250715_124431.png
+2025-07-15 12:44:31,899 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-07-15 12:44:31,899 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-07-15 12:44:32,048 - automation - INFO - Successfully clicked the element
+2025-07-15 12:44:32,440 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250715_124432.png
+2025-07-15 12:44:32,440 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-07-15 12:44:32,440 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-07-15 12:44:32,589 - automation - INFO - Successfully clicked the element
+2025-07-15 12:44:33,008 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250715_124432.png
+2025-07-15 12:44:33,009 - automation - INFO - STEP 4: Mengisi form login
+2025-07-15 12:44:33,009 - automation - INFO - Entering text 'valid@example.com' in element: ('xpath', "//input[@type='email']")
+2025-07-15 12:44:33,204 - automation - INFO - Text entered successfully
+2025-07-15 12:44:33,204 - automation - INFO - Entering text '' in element: ('xpath', "//input[@type='password']")
+2025-07-15 12:44:33,323 - automation - INFO - Text entered successfully
+2025-07-15 12:44:33,633 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250715_124433.png
+2025-07-15 12:44:33,633 - automation - INFO - STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting
+2025-07-15 12:44:48,809 - automation - INFO - Test passed - login failed as expected with invalid credentials
+2025-07-15 12:44:48,810 - automation - INFO - Test completed. Cleaning up...
+2025-07-15 12:44:51,238 - automation - INFO - Test execution completed
