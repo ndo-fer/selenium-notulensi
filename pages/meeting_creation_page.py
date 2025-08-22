@@ -22,7 +22,7 @@ class MeetingCreationPage(BasePage):
     
     def select_meeting_type(self, meeting_type):
         """Select meeting type only if not already selected"""
-        current_type = self.get_selected_meeting_type()
+        current_type = self.get_selected_meeting_type() or ""
         if current_type.lower() != meeting_type.lower():
             if meeting_type.lower() == "online":
                 self.click(self.MEETING_TYPE_ONLINE)
@@ -39,7 +39,7 @@ class MeetingCreationPage(BasePage):
     
     def select_language(self, language):
         """Select language only if not already selected"""
-        current_lang = self.get_selected_language()
+        current_lang = self.get_selected_language() or ""
         if current_lang.lower() != language.lower():
             if language.lower() == "indonesia":
                 self.click(self.LANGUAGE_INDONESIAN)
