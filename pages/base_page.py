@@ -41,6 +41,18 @@ class BasePage:
         except Exception as e:
             self.logger.error(f"Failed to get text: {str(e)}")
             raise
+
+    def is_element_selected(self, by_locator):
+        """Check if the specified element is selected."""
+        self.logger.info(f"Checking selection state of element: {by_locator}")
+        try:
+            element = self.wait.until(EC.presence_of_element_located(by_locator))
+            selected = element.is_selected()
+            self.logger.info(f"Element selected state: {selected}")
+            return selected
+        except Exception as e:
+            self.logger.error(f"Failed to determine selected state: {str(e)}")
+            raise
     
     def take_screenshot(self, name):
         timestamp = time.strftime("%Y%m%d_%H%M%S")
