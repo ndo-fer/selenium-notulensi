@@ -36,25 +36,33 @@ class LoginFlow(BasePage):
             self.enter_text(self.PASSWORD_INPUT, password)
             self.driver.find_element(*self.PASSWORD_INPUT).send_keys(Keys.ENTER)
             self.take_screenshot("after_login_submit")
-            
-            # # Step 5: Verifikasi login berhasil dengan memeriksa button create meeting
-            # self.logger.info("STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting")
-            
-            # # Tunggu hingga button create meeting muncul
-            # self.wait.until(EC.visibility_of_element_located(self.CREATE_MEETING_BUTTON))
-            # self.logger.info("Button create meeting ditemukan - login berhasil")
-            
+
+            # Step 5: Verifikasi login berhasil dengan memeriksa button create meeting
+            self.logger.info(
+                "STEP 5: Memverifikasi login berhasil dengan mengecek button create meeting"
+            )
+            if not self.is_element_visible(self.CREATE_MEETING_BUTTON):
+                self.logger.error(
+                    "Login failed: dashboard element not found or credentials invalid"
+                )
+                raise Exception(
+                    "Login failed: dashboard element not found or credentials invalid"
+                )
+
+            self.logger.info("Button create meeting ditemukan - login berhasil")
+
             # Verifikasi tambahan: pastikan URL mengandung '/dashboard' jika ada pola URL yang konsisten
             if "/dashboard" in self.driver.current_url.lower():
                 self.logger.info("Berada di halaman dashboard")
-            
+
             self.take_screenshot("dashboard_page")
             return True
             
             # self._handle_post_login_modals()
             
         except Exception as e:
-            self.base_page.take_screenshot("login_error")
+            self.logger.error(f"Login flow failed: {e}")
+            self.take_screenshot("login_error")
             raise
 
     def _handle_post_login_modals(self):

@@ -23,10 +23,6 @@ class TestNormalLogin:
         # Verifikasi
         assert result is True, "Login flow should return True"
         
-        # Verifikasi tambahan: button create meeting visible
-        assert self.login_flow.is_element_visible(self.login_flow.CREATE_MEETING_BUTTON), \
-            "Create meeting button should be visible after login"
-        
         logger.info("Successfully verified login and dashboard page")
     
     @pytest.mark.parametrize("email,password", [
@@ -39,7 +35,7 @@ class TestNormalLogin:
         """Test login dengan berbagai kombinasi credential invalid"""
         logger.info(f"Starting test with email: {email}, password: {password}")
         
-        with pytest.raises(Exception):
+        with pytest.raises(Exception, match="Login failed"):
             self.login_flow.execute_login_flow(email, password)
         
         logger.info("Test passed - login failed as expected with invalid credentials")
