@@ -1,6 +1,7 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from utilities.logger import logger
 import time
 import os
@@ -47,12 +48,12 @@ class BasePage:
         self.logger.info(f"Checking selection state of element: {by_locator}")
         try:
             element = self.wait.until(EC.presence_of_element_located(by_locator))
-            selected = element.is_selected()
-            self.logger.info(f"Element selected state: {selected}")
-            return selected
-        except Exception as e:
-            self.logger.error(f"Failed to determine selected state: {str(e)}")
-            raise
+        except (TimeoutException, NoSuchElementException):
+            self.logger.info(f"Element not found or not selectable: {by_locator}")
+            return False
+        selected = element.is_selected()
+        self.logger.info(f"Element selected state: {selected}")
+        return selected
     
     def take_screenshot(self, name):
         timestamp = time.strftime("%Y%m%d_%H%M%S")
