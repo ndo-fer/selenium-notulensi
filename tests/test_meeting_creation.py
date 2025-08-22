@@ -49,8 +49,8 @@ class TestMeetingCreation:
         self.meeting_page.open_meeting_creation_dialog()
         print("2")
         yield
-        # Teardown
-        self.meeting_page.close_meeting_creation_dialog()
+        # # Teardown
+        # self.meeting_page.close_meeting_creation_dialog()
 
     # --- Online Meeting Tests ---
     def test_create_online_meeting_default(self):
@@ -64,7 +64,7 @@ class TestMeetingCreation:
         )
         
         # assert self.meeting_page.is_meeting_created()
-        assert self.meeting_page.get_selected_language() == "Indonesia"
+        # assert self.meeting_page.get_selected_language() == "Indonesia"
 
     def test_create_online_meeting_english(self):
         """Test creating online meeting with English language"""

@@ -1,0 +1,16 @@
+2025-08-20 09:51:04,855 - automation - INFO - Starting test execution
+2025-08-20 09:52:36,561 - automation - INFO - Starting test_successful_login_with_valid_credentials
+2025-08-20 09:52:36,570 - automation - INFO - Test completed. Cleaning up...
+2025-08-20 09:52:41,037 - automation - INFO - Starting test with email: valid@example.com, password: wrongpass
+2025-08-20 09:52:41,037 - automation - INFO - Test passed - login failed as expected with invalid credentials
+2025-08-20 09:52:41,038 - automation - INFO - Test completed. Cleaning up...
+2025-08-20 09:52:45,417 - automation - INFO - Starting test with email: invalid@example.com, password: password123
+2025-08-20 09:52:45,417 - automation - INFO - Test passed - login failed as expected with invalid credentials
+2025-08-20 09:52:45,418 - automation - INFO - Test completed. Cleaning up...
+2025-08-20 09:52:50,070 - automation - INFO - Starting test with email: , password: password123
+2025-08-20 09:52:50,070 - automation - INFO - Test passed - login failed as expected with invalid credentials
+2025-08-20 09:52:50,071 - automation - INFO - Test completed. Cleaning up...
+2025-08-20 09:52:54,959 - automation - INFO - Starting test with email: valid@example.com, password: 
+2025-08-20 09:52:54,959 - automation - INFO - Test passed - login failed as expected with invalid credentials
+2025-08-20 09:52:54,960 - automation - INFO - Test completed. Cleaning up...
+2025-08-20 09:52:57,397 - automation - INFO - Test execution completed

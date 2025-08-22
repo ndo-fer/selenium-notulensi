@@ -1,0 +1,509 @@
+2025-08-14 08:34:41,676 - automation - INFO - Starting test execution
+2025-08-14 08:34:48,655 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:34:54,833 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_083454.png
+2025-08-14 08:34:54,833 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:34:54,833 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:34:55,028 - automation - INFO - Successfully clicked the element
+2025-08-14 08:34:55,502 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_083455.png
+2025-08-14 08:34:55,502 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:34:55,503 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:34:55,651 - automation - INFO - Successfully clicked the element
+2025-08-14 08:34:55,873 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_083455.png
+2025-08-14 08:34:55,874 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:34:55,874 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:34:56,211 - automation - INFO - Text entered successfully
+2025-08-14 08:34:56,211 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:34:56,443 - automation - INFO - Text entered successfully
+2025-08-14 08:34:56,831 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_083456.png
+2025-08-14 08:34:57,049 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_083456.png
+2025-08-14 08:35:15,387 - automation - INFO - Clicking on element: ('id', 'meeting_link')
+2025-08-14 08:35:15,455 - automation - INFO - Successfully clicked the element
+2025-08-14 08:35:15,455 - automation - INFO - Entering text 'https://meet.google.com/jna-nsyi-qqa' in element: ('id', 'meeting_link')
+2025-08-14 08:35:15,605 - automation - INFO - Text entered successfully
+2025-08-14 08:35:15,605 - automation - INFO - Entering text 'Test Default Meeting' in element: ('id', 'meeting_name')
+2025-08-14 08:35:15,767 - automation - INFO - Text entered successfully
+2025-08-14 08:35:15,768 - automation - INFO - Clicking on element: ('id', 'createNewMeetingBtn')
+2025-08-14 08:35:15,975 - automation - INFO - Successfully clicked the element
+2025-08-14 08:35:20,682 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:35:23,057 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_083522.png
+2025-08-14 08:35:23,057 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:35:23,057 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:35:23,212 - automation - INFO - Successfully clicked the element
+2025-08-14 08:35:23,640 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_083523.png
+2025-08-14 08:35:23,640 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:35:23,640 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:35:23,785 - automation - INFO - Successfully clicked the element
+2025-08-14 08:35:24,263 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_083523.png
+2025-08-14 08:35:24,263 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:35:24,263 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:35:24,492 - automation - INFO - Text entered successfully
+2025-08-14 08:35:24,492 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:35:24,683 - automation - INFO - Text entered successfully
+2025-08-14 08:35:25,040 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_083524.png
+2025-08-14 08:35:25,284 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_083525.png
+2025-08-14 08:35:48,376 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:35:54,586 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_083554.png
+2025-08-14 08:35:54,586 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:35:54,587 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:35:54,712 - automation - INFO - Successfully clicked the element
+2025-08-14 08:35:55,147 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_083554.png
+2025-08-14 08:35:55,148 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:35:55,148 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:35:55,286 - automation - INFO - Successfully clicked the element
+2025-08-14 08:35:55,612 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_083555.png
+2025-08-14 08:35:55,613 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:35:55,614 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:35:55,938 - automation - INFO - Text entered successfully
+2025-08-14 08:35:55,938 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:35:56,114 - automation - INFO - Text entered successfully
+2025-08-14 08:35:56,500 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_083556.png
+2025-08-14 08:35:56,703 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_083556.png
+2025-08-14 08:36:15,192 - automation - INFO - Clicking on element: ('id', 'meeting_link')
+2025-08-14 08:36:15,266 - automation - INFO - Successfully clicked the element
+2025-08-14 08:36:15,266 - automation - INFO - Entering text 'https://meet.google.com/jna-nsyi-qqa' in element: ('id', 'meeting_link')
+2025-08-14 08:36:15,411 - automation - INFO - Text entered successfully
+2025-08-14 08:36:15,411 - automation - INFO - Entering text 'Test Platform: meet.google.com' in element: ('id', 'meeting_name')
+2025-08-14 08:36:15,593 - automation - INFO - Text entered successfully
+2025-08-14 08:36:15,593 - automation - INFO - Clicking on element: ('id', 'createNewMeetingBtn')
+2025-08-14 08:36:15,814 - automation - INFO - Successfully clicked the element
+2025-08-14 08:36:20,416 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:36:23,892 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_083623.png
+2025-08-14 08:36:23,892 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:36:23,893 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:36:24,026 - automation - INFO - Successfully clicked the element
+2025-08-14 08:36:24,442 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_083624.png
+2025-08-14 08:36:24,443 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:36:24,443 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:36:24,596 - automation - INFO - Successfully clicked the element
+2025-08-14 08:36:25,096 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_083624.png
+2025-08-14 08:36:25,096 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:36:25,096 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:36:25,320 - automation - INFO - Text entered successfully
+2025-08-14 08:36:25,320 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:36:25,494 - automation - INFO - Text entered successfully
+2025-08-14 08:36:25,870 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_083625.png
+2025-08-14 08:36:26,111 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_083625.png
+2025-08-14 08:36:44,538 - automation - INFO - Clicking on element: ('id', 'meeting_link')
+2025-08-14 08:36:44,612 - automation - INFO - Successfully clicked the element
+2025-08-14 08:36:44,612 - automation - INFO - Entering text 'https://zoom.us/j/123456789' in element: ('id', 'meeting_link')
+2025-08-14 08:36:44,744 - automation - INFO - Text entered successfully
+2025-08-14 08:36:44,744 - automation - INFO - Entering text 'Test Platform: zoom.us' in element: ('id', 'meeting_name')
+2025-08-14 08:36:44,933 - automation - INFO - Text entered successfully
+2025-08-14 08:36:44,933 - automation - INFO - Clicking on element: ('id', 'createNewMeetingBtn')
+2025-08-14 08:36:45,066 - automation - INFO - Successfully clicked the element
+2025-08-14 08:36:49,724 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:36:52,692 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_083652.png
+2025-08-14 08:36:52,692 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:36:52,692 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:36:52,835 - automation - INFO - Successfully clicked the element
+2025-08-14 08:36:53,258 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_083652.png
+2025-08-14 08:36:53,259 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:36:53,259 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:36:53,408 - automation - INFO - Successfully clicked the element
+2025-08-14 08:36:53,825 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_083653.png
+2025-08-14 08:36:53,825 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:36:53,825 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:36:54,057 - automation - INFO - Text entered successfully
+2025-08-14 08:36:54,057 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:36:54,236 - automation - INFO - Text entered successfully
+2025-08-14 08:36:54,653 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_083654.png
+2025-08-14 08:36:54,904 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_083654.png
+2025-08-14 08:37:13,296 - automation - INFO - Clicking on element: ('id', 'meeting_link')
+2025-08-14 08:37:13,369 - automation - INFO - Successfully clicked the element
+2025-08-14 08:37:13,370 - automation - INFO - Entering text 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_ABCD123' in element: ('id', 'meeting_link')
+2025-08-14 08:37:13,582 - automation - INFO - Text entered successfully
+2025-08-14 08:37:13,582 - automation - INFO - Entering text 'Test Platform: teams.microsoft.com' in element: ('id', 'meeting_name')
+2025-08-14 08:37:13,777 - automation - INFO - Text entered successfully
+2025-08-14 08:37:13,777 - automation - INFO - Clicking on element: ('id', 'createNewMeetingBtn')
+2025-08-14 08:37:13,958 - automation - INFO - Successfully clicked the element
+2025-08-14 08:37:18,615 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:37:20,829 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_083720.png
+2025-08-14 08:37:20,830 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:37:20,830 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:37:21,098 - automation - INFO - Successfully clicked the element
+2025-08-14 08:37:21,533 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_083721.png
+2025-08-14 08:37:21,533 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:37:21,533 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:37:21,681 - automation - INFO - Successfully clicked the element
+2025-08-14 08:37:22,111 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_083721.png
+2025-08-14 08:37:22,111 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:37:22,111 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:37:22,363 - automation - INFO - Text entered successfully
+2025-08-14 08:37:22,363 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:37:22,531 - automation - INFO - Text entered successfully
+2025-08-14 08:37:22,880 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_083722.png
+2025-08-14 08:37:23,117 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_083722.png
+2025-08-14 08:37:46,185 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:37:48,521 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_083748.png
+2025-08-14 08:37:48,521 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:37:48,521 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:37:48,648 - automation - INFO - Successfully clicked the element
+2025-08-14 08:37:49,133 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_083748.png
+2025-08-14 08:37:49,133 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:37:49,133 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:37:49,287 - automation - INFO - Successfully clicked the element
+2025-08-14 08:37:49,677 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_083749.png
+2025-08-14 08:37:49,678 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:37:49,679 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:37:49,919 - automation - INFO - Text entered successfully
+2025-08-14 08:37:49,919 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:37:50,102 - automation - INFO - Text entered successfully
+2025-08-14 08:37:50,486 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_083750.png
+2025-08-14 08:37:50,719 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_083750.png
+2025-08-14 08:38:13,714 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:38:16,220 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_083816.png
+2025-08-14 08:38:16,221 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:38:16,222 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:38:16,461 - automation - INFO - Successfully clicked the element
+2025-08-14 08:38:16,885 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_083816.png
+2025-08-14 08:38:16,885 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:38:16,885 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:38:17,035 - automation - INFO - Successfully clicked the element
+2025-08-14 08:38:17,516 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_083817.png
+2025-08-14 08:38:17,516 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:38:17,516 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:38:17,746 - automation - INFO - Text entered successfully
+2025-08-14 08:38:17,746 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:38:17,916 - automation - INFO - Text entered successfully
+2025-08-14 08:38:18,303 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_083818.png
+2025-08-14 08:38:18,534 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_083818.png
+2025-08-14 08:38:36,919 - automation - INFO - Clicking on element: ('id', 'meeting_link')
+2025-08-14 08:38:36,986 - automation - INFO - Successfully clicked the element
+2025-08-14 08:38:36,986 - automation - INFO - Entering text 'invalidlink' in element: ('id', 'meeting_link')
+2025-08-14 08:38:37,080 - automation - INFO - Text entered successfully
+2025-08-14 08:38:37,081 - automation - INFO - Entering text 'Test Invalid Link' in element: ('id', 'meeting_name')
+2025-08-14 08:38:37,233 - automation - INFO - Text entered successfully
+2025-08-14 08:38:37,234 - automation - INFO - Clicking on element: ('id', 'createNewMeetingBtn')
+2025-08-14 08:38:37,365 - automation - INFO - Successfully clicked the element
+2025-08-14 08:38:42,091 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:38:44,572 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_083844.png
+2025-08-14 08:38:44,572 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:38:44,572 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:38:44,832 - automation - INFO - Successfully clicked the element
+2025-08-14 08:38:45,256 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_083844.png
+2025-08-14 08:38:45,256 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:38:45,256 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:38:45,408 - automation - INFO - Successfully clicked the element
+2025-08-14 08:38:45,746 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_083845.png
+2025-08-14 08:38:45,746 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:38:45,747 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:38:45,999 - automation - INFO - Text entered successfully
+2025-08-14 08:38:45,999 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:38:46,196 - automation - INFO - Text entered successfully
+2025-08-14 08:38:46,576 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_083846.png
+2025-08-14 08:38:46,796 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_083846.png
+2025-08-14 08:39:05,173 - automation - INFO - Clicking on element: ('id', 'meeting_link')
+2025-08-14 08:39:05,246 - automation - INFO - Successfully clicked the element
+2025-08-14 08:39:05,246 - automation - INFO - Entering text 'https://invalid.com' in element: ('id', 'meeting_link')
+2025-08-14 08:39:05,350 - automation - INFO - Text entered successfully
+2025-08-14 08:39:05,351 - automation - INFO - Entering text 'Test Invalid Link' in element: ('id', 'meeting_name')
+2025-08-14 08:39:05,541 - automation - INFO - Text entered successfully
+2025-08-14 08:39:05,541 - automation - INFO - Clicking on element: ('id', 'createNewMeetingBtn')
+2025-08-14 08:39:05,720 - automation - INFO - Successfully clicked the element
+2025-08-14 08:39:10,332 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:39:12,927 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_083912.png
+2025-08-14 08:39:12,927 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:39:12,927 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:39:13,150 - automation - INFO - Successfully clicked the element
+2025-08-14 08:39:13,564 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_083913.png
+2025-08-14 08:39:13,565 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:39:13,565 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:39:13,707 - automation - INFO - Successfully clicked the element
+2025-08-14 08:39:14,138 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_083913.png
+2025-08-14 08:39:14,138 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:39:14,138 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:39:14,421 - automation - INFO - Text entered successfully
+2025-08-14 08:39:14,422 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:39:14,592 - automation - INFO - Text entered successfully
+2025-08-14 08:39:14,957 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_083914.png
+2025-08-14 08:39:15,182 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_083914.png
+2025-08-14 08:39:33,671 - automation - INFO - Clicking on element: ('id', 'meeting_link')
+2025-08-14 08:39:33,744 - automation - INFO - Successfully clicked the element
+2025-08-14 08:39:33,746 - automation - INFO - Entering text ' ' in element: ('id', 'meeting_link')
+2025-08-14 08:39:33,850 - automation - INFO - Text entered successfully
+2025-08-14 08:39:33,850 - automation - INFO - Entering text 'Test Invalid Link' in element: ('id', 'meeting_name')
+2025-08-14 08:39:33,997 - automation - INFO - Text entered successfully
+2025-08-14 08:39:33,998 - automation - INFO - Clicking on element: ('id', 'createNewMeetingBtn')
+2025-08-14 08:39:49,032 - automation - ERROR - Failed to click element: Message: 
+
+2025-08-14 08:39:53,625 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:39:58,674 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_083958.png
+2025-08-14 08:39:58,675 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:39:58,675 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:39:59,308 - automation - INFO - Successfully clicked the element
+2025-08-14 08:39:59,737 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_083959.png
+2025-08-14 08:39:59,738 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:39:59,738 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:39:59,877 - automation - INFO - Successfully clicked the element
+2025-08-14 08:40:00,103 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_083959.png
+2025-08-14 08:40:00,104 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:40:00,104 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:40:00,858 - automation - INFO - Text entered successfully
+2025-08-14 08:40:00,859 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:40:01,119 - automation - INFO - Text entered successfully
+2025-08-14 08:40:01,479 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_084001.png
+2025-08-14 08:40:01,688 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_084001.png
+2025-08-14 08:40:20,035 - automation - INFO - Clicking on element: ('id', 'meeting_link')
+2025-08-14 08:40:20,100 - automation - INFO - Successfully clicked the element
+2025-08-14 08:40:20,100 - automation - INFO - Entering text 'None' in element: ('id', 'meeting_link')
+2025-08-14 08:40:20,139 - automation - ERROR - Failed to enter text: 'NoneType' object is not iterable
+2025-08-14 08:40:24,741 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:40:29,184 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_084029.png
+2025-08-14 08:40:29,185 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:40:29,185 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:40:29,807 - automation - INFO - Successfully clicked the element
+2025-08-14 08:40:30,217 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_084029.png
+2025-08-14 08:40:30,219 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:40:30,219 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:40:30,360 - automation - INFO - Successfully clicked the element
+2025-08-14 08:40:30,795 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_084030.png
+2025-08-14 08:40:30,796 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:40:30,796 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:40:31,029 - automation - INFO - Text entered successfully
+2025-08-14 08:40:31,030 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:40:31,229 - automation - INFO - Text entered successfully
+2025-08-14 08:40:31,592 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_084031.png
+2025-08-14 08:40:31,797 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_084031.png
+2025-08-14 08:40:50,164 - automation - INFO - Clicking on element: ('id', 'meeting_link')
+2025-08-14 08:40:50,231 - automation - INFO - Successfully clicked the element
+2025-08-14 08:40:50,231 - automation - INFO - Entering text 'https://meet.google.com/jna-nsyi-qqa' in element: ('id', 'meeting_link')
+2025-08-14 08:40:50,378 - automation - INFO - Text entered successfully
+2025-08-14 08:40:50,378 - automation - INFO - Entering text 'Normal Name' in element: ('id', 'meeting_name')
+2025-08-14 08:40:50,516 - automation - INFO - Text entered successfully
+2025-08-14 08:40:50,516 - automation - INFO - Clicking on element: ('id', 'createNewMeetingBtn')
+2025-08-14 08:40:50,708 - automation - INFO - Successfully clicked the element
+2025-08-14 08:40:55,429 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:40:58,037 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_084057.png
+2025-08-14 08:40:58,038 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:40:58,038 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:40:58,172 - automation - INFO - Successfully clicked the element
+2025-08-14 08:40:58,548 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_084058.png
+2025-08-14 08:40:58,549 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:40:58,550 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:40:58,697 - automation - INFO - Successfully clicked the element
+2025-08-14 08:40:59,121 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_084058.png
+2025-08-14 08:40:59,121 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:40:59,121 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:40:59,353 - automation - INFO - Text entered successfully
+2025-08-14 08:40:59,354 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:40:59,526 - automation - INFO - Text entered successfully
+2025-08-14 08:40:59,899 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_084059.png
+2025-08-14 08:41:00,103 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_084059.png
+2025-08-14 08:41:18,538 - automation - INFO - Clicking on element: ('id', 'meeting_link')
+2025-08-14 08:41:18,603 - automation - INFO - Successfully clicked the element
+2025-08-14 08:41:18,603 - automation - INFO - Entering text 'https://meet.google.com/jna-nsyi-qqa' in element: ('id', 'meeting_link')
+2025-08-14 08:41:18,755 - automation - INFO - Text entered successfully
+2025-08-14 08:41:18,755 - automation - INFO - Entering text 'A' in element: ('id', 'meeting_name')
+2025-08-14 08:41:18,870 - automation - INFO - Text entered successfully
+2025-08-14 08:41:18,871 - automation - INFO - Clicking on element: ('id', 'createNewMeetingBtn')
+2025-08-14 08:41:19,069 - automation - INFO - Successfully clicked the element
+2025-08-14 08:41:23,754 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:41:26,338 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_084126.png
+2025-08-14 08:41:26,338 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:41:26,339 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:41:26,569 - automation - INFO - Successfully clicked the element
+2025-08-14 08:41:27,023 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_084126.png
+2025-08-14 08:41:27,023 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:41:27,024 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:41:27,170 - automation - INFO - Successfully clicked the element
+2025-08-14 08:41:27,576 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_084127.png
+2025-08-14 08:41:27,577 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:41:27,577 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:41:27,803 - automation - INFO - Text entered successfully
+2025-08-14 08:41:27,804 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:41:27,995 - automation - INFO - Text entered successfully
+2025-08-14 08:41:28,375 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_084128.png
+2025-08-14 08:41:28,577 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_084128.png
+2025-08-14 08:41:46,947 - automation - INFO - Clicking on element: ('id', 'meeting_link')
+2025-08-14 08:41:47,013 - automation - INFO - Successfully clicked the element
+2025-08-14 08:41:47,013 - automation - INFO - Entering text 'https://meet.google.com/jna-nsyi-qqa' in element: ('id', 'meeting_link')
+2025-08-14 08:41:47,161 - automation - INFO - Text entered successfully
+2025-08-14 08:41:47,162 - automation - INFO - Clicking on element: ('id', 'createNewMeetingBtn')
+2025-08-14 08:41:47,336 - automation - INFO - Successfully clicked the element
+2025-08-14 08:41:51,911 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:41:57,343 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_084157.png
+2025-08-14 08:41:57,343 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:41:57,343 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:41:57,989 - automation - INFO - Successfully clicked the element
+2025-08-14 08:41:58,431 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_084157.png
+2025-08-14 08:41:58,431 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:41:58,431 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:41:58,562 - automation - INFO - Successfully clicked the element
+2025-08-14 08:41:58,868 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_084158.png
+2025-08-14 08:41:58,868 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:41:58,868 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:41:59,094 - automation - INFO - Text entered successfully
+2025-08-14 08:41:59,094 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:41:59,357 - automation - INFO - Text entered successfully
+2025-08-14 08:41:59,761 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_084159.png
+2025-08-14 08:41:59,970 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_084159.png
+2025-08-14 08:42:18,329 - automation - INFO - Clicking on element: ('id', 'meeting_link')
+2025-08-14 08:42:18,393 - automation - INFO - Successfully clicked the element
+2025-08-14 08:42:18,393 - automation - INFO - Entering text 'https://meet.google.com/jna-nsyi-qqa' in element: ('id', 'meeting_link')
+2025-08-14 08:42:18,543 - automation - INFO - Text entered successfully
+2025-08-14 08:42:18,543 - automation - INFO - Entering text 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' in element: ('id', 'meeting_name')
+2025-08-14 08:42:19,278 - automation - INFO - Text entered successfully
+2025-08-14 08:42:19,279 - automation - INFO - Clicking on element: ('id', 'createNewMeetingBtn')
+2025-08-14 08:42:19,428 - automation - INFO - Successfully clicked the element
+2025-08-14 08:42:24,122 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:42:26,618 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_084226.png
+2025-08-14 08:42:26,619 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:42:26,619 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:42:26,773 - automation - INFO - Successfully clicked the element
+2025-08-14 08:42:27,202 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_084226.png
+2025-08-14 08:42:27,203 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:42:27,203 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:42:27,356 - automation - INFO - Successfully clicked the element
+2025-08-14 08:42:27,727 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_084227.png
+2025-08-14 08:42:27,727 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:42:27,727 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:42:27,987 - automation - INFO - Text entered successfully
+2025-08-14 08:42:27,987 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:42:28,193 - automation - INFO - Text entered successfully
+2025-08-14 08:42:28,566 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_084228.png
+2025-08-14 08:42:28,775 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_084228.png
+2025-08-14 08:42:47,172 - automation - INFO - Clicking on element: ('id', 'meeting_link')
+2025-08-14 08:42:47,236 - automation - INFO - Successfully clicked the element
+2025-08-14 08:42:47,236 - automation - INFO - Entering text 'https://meet.google.com/jna-nsyi-qqa' in element: ('id', 'meeting_link')
+2025-08-14 08:42:47,388 - automation - INFO - Text entered successfully
+2025-08-14 08:42:47,388 - automation - INFO - Entering text 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' in element: ('id', 'meeting_name')
+2025-08-14 08:42:48,168 - automation - INFO - Text entered successfully
+2025-08-14 08:42:48,168 - automation - INFO - Clicking on element: ('id', 'createNewMeetingBtn')
+2025-08-14 08:42:48,337 - automation - INFO - Successfully clicked the element
+2025-08-14 08:42:52,978 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:42:55,541 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_084255.png
+2025-08-14 08:42:55,541 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:42:55,541 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:42:55,770 - automation - INFO - Successfully clicked the element
+2025-08-14 08:42:56,228 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_084255.png
+2025-08-14 08:42:56,228 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:42:56,229 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:42:56,385 - automation - INFO - Successfully clicked the element
+2025-08-14 08:42:56,828 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_084256.png
+2025-08-14 08:42:56,829 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:42:56,829 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:42:57,059 - automation - INFO - Text entered successfully
+2025-08-14 08:42:57,059 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:42:57,248 - automation - INFO - Text entered successfully
+2025-08-14 08:42:57,622 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_084257.png
+2025-08-14 08:42:57,824 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_084257.png
+2025-08-14 08:43:20,761 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:43:23,221 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_084323.png
+2025-08-14 08:43:23,221 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:43:23,221 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:43:23,470 - automation - INFO - Successfully clicked the element
+2025-08-14 08:43:23,978 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_084323.png
+2025-08-14 08:43:23,978 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:43:23,979 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:43:24,121 - automation - INFO - Successfully clicked the element
+2025-08-14 08:43:24,574 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_084324.png
+2025-08-14 08:43:24,574 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:43:24,575 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:43:24,801 - automation - INFO - Text entered successfully
+2025-08-14 08:43:24,802 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:43:24,971 - automation - INFO - Text entered successfully
+2025-08-14 08:43:25,344 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_084325.png
+2025-08-14 08:43:25,548 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_084325.png
+2025-08-14 08:43:43,905 - automation - INFO - Clicking on element: ('id', 'meeting_link')
+2025-08-14 08:43:43,971 - automation - INFO - Successfully clicked the element
+2025-08-14 08:43:43,972 - automation - INFO - Entering text 'https://meet.google.com/jna-nsyi-qqa' in element: ('id', 'meeting_link')
+2025-08-14 08:43:44,120 - automation - INFO - Text entered successfully
+2025-08-14 08:43:44,120 - automation - INFO - Clicking on element: ('id', 'createNewMeetingBtn')
+2025-08-14 08:43:44,294 - automation - INFO - Successfully clicked the element
+2025-08-14 08:43:48,934 - automation - INFO - Starting test_successful_login_with_valid_credentials
+2025-08-14 08:43:48,935 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:43:51,638 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_084351.png
+2025-08-14 08:43:51,638 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:43:51,639 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:43:51,771 - automation - INFO - Successfully clicked the element
+2025-08-14 08:43:52,346 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_084351.png
+2025-08-14 08:43:52,347 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:43:52,347 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:43:52,493 - automation - INFO - Successfully clicked the element
+2025-08-14 08:43:52,922 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_084352.png
+2025-08-14 08:43:52,922 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:43:52,922 - automation - INFO - Entering text 'nandopanjaitan003@gmail.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:43:53,160 - automation - INFO - Text entered successfully
+2025-08-14 08:43:53,161 - automation - INFO - Entering text 'Twice300403' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:43:53,336 - automation - INFO - Text entered successfully
+2025-08-14 08:43:53,735 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_084353.png
+2025-08-14 08:43:53,939 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_084353.png
+2025-08-14 08:43:54,565 - automation - INFO - Successfully verified login and dashboard page
+2025-08-14 08:43:54,565 - automation - INFO - Test completed. Cleaning up...
+2025-08-14 08:43:59,158 - automation - INFO - Starting test with email: valid@example.com, password: wrongpass
+2025-08-14 08:43:59,158 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:44:02,044 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_084401.png
+2025-08-14 08:44:02,044 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:44:02,044 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:44:02,182 - automation - INFO - Successfully clicked the element
+2025-08-14 08:44:02,602 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_084402.png
+2025-08-14 08:44:02,602 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:44:02,602 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:44:02,732 - automation - INFO - Successfully clicked the element
+2025-08-14 08:44:03,320 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_084402.png
+2025-08-14 08:44:03,321 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:44:03,321 - automation - INFO - Entering text 'valid@example.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:44:03,501 - automation - INFO - Text entered successfully
+2025-08-14 08:44:03,501 - automation - INFO - Entering text 'wrongpass' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:44:03,669 - automation - INFO - Text entered successfully
+2025-08-14 08:44:04,061 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_084403.png
+2025-08-14 08:44:04,269 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_084404.png
+2025-08-14 08:44:04,272 - automation - INFO - Test completed. Cleaning up...
+2025-08-14 08:44:08,736 - automation - INFO - Starting test with email: invalid@example.com, password: password123
+2025-08-14 08:44:08,736 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:44:15,218 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_084415.png
+2025-08-14 08:44:15,218 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:44:15,218 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:44:15,353 - automation - INFO - Successfully clicked the element
+2025-08-14 08:44:15,796 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_084415.png
+2025-08-14 08:44:15,796 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:44:15,796 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:44:15,953 - automation - INFO - Successfully clicked the element
+2025-08-14 08:44:16,360 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_084415.png
+2025-08-14 08:44:16,360 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:44:16,361 - automation - INFO - Entering text 'invalid@example.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:44:16,563 - automation - INFO - Text entered successfully
+2025-08-14 08:44:16,564 - automation - INFO - Entering text 'password123' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:44:16,774 - automation - INFO - Text entered successfully
+2025-08-14 08:44:17,185 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_084416.png
+2025-08-14 08:44:17,400 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_084417.png
+2025-08-14 08:44:17,403 - automation - INFO - Test completed. Cleaning up...
+2025-08-14 08:44:21,970 - automation - INFO - Starting test with email: , password: password123
+2025-08-14 08:44:21,971 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:44:25,226 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_084425.png
+2025-08-14 08:44:25,227 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:44:25,227 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:44:25,359 - automation - INFO - Successfully clicked the element
+2025-08-14 08:44:25,805 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_084425.png
+2025-08-14 08:44:25,806 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:44:25,806 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:44:25,976 - automation - INFO - Successfully clicked the element
+2025-08-14 08:44:26,317 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_084425.png
+2025-08-14 08:44:26,317 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:44:26,317 - automation - INFO - Entering text '' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:44:26,451 - automation - INFO - Text entered successfully
+2025-08-14 08:44:26,451 - automation - INFO - Entering text 'password123' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:44:26,604 - automation - INFO - Text entered successfully
+2025-08-14 08:44:26,912 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_084426.png
+2025-08-14 08:44:27,143 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_084426.png
+2025-08-14 08:44:27,146 - automation - INFO - Test completed. Cleaning up...
+2025-08-14 08:44:31,668 - automation - INFO - Starting test with email: valid@example.com, password: 
+2025-08-14 08:44:31,669 - automation - INFO - STEP 1: Membuka landing page
+2025-08-14 08:44:38,128 - automation - INFO - Screenshot saved as screenshots/landing_page_20250814_084437.png
+2025-08-14 08:44:38,128 - automation - INFO - STEP 2: Mengklik tombol Get Started
+2025-08-14 08:44:38,128 - automation - INFO - Clicking on element: ('xpath', '//*[@id="hero"]/div/div[1]/div[2]/div[2]/button')
+2025-08-14 08:44:38,761 - automation - INFO - Successfully clicked the element
+2025-08-14 08:44:39,276 - automation - INFO - Screenshot saved as screenshots/after_get_started_20250814_084438.png
+2025-08-14 08:44:39,277 - automation - INFO - STEP 3: Mengklik Register Now di auth dialog
+2025-08-14 08:44:39,277 - automation - INFO - Clicking on element: ('id', 'registerNow')
+2025-08-14 08:44:39,418 - automation - INFO - Successfully clicked the element
+2025-08-14 08:44:39,761 - automation - INFO - Screenshot saved as screenshots/auth_dialog_20250814_084439.png
+2025-08-14 08:44:39,761 - automation - INFO - STEP 4: Mengisi form login
+2025-08-14 08:44:39,762 - automation - INFO - Entering text 'valid@example.com' in element: ('xpath', "//input[@type='email']")
+2025-08-14 08:44:39,972 - automation - INFO - Text entered successfully
+2025-08-14 08:44:39,972 - automation - INFO - Entering text '' in element: ('xpath', "//input[@type='password']")
+2025-08-14 08:44:40,087 - automation - INFO - Text entered successfully
+2025-08-14 08:44:40,418 - automation - INFO - Screenshot saved as screenshots/after_login_submit_20250814_084440.png
+2025-08-14 08:44:40,651 - automation - INFO - Screenshot saved as screenshots/dashboard_page_20250814_084440.png
+2025-08-14 08:44:40,654 - automation - INFO - Test completed. Cleaning up...
+2025-08-14 08:44:43,101 - automation - INFO - Test execution completed
