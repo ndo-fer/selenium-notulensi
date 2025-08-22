@@ -3,6 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, ElementClickInterceptedException
 from pages.base_page import BasePage
 import time
+import re
 
 class MeetingCreationPage(BasePage):
     # Locators
@@ -52,9 +53,23 @@ class MeetingCreationPage(BasePage):
     
     def create_online_meeting(self, meeting_link, meeting_name=""):
         """Create online meeting with default Indonesia language"""
-        print("1")
+        # Validate meeting link
+        if not isinstance(meeting_link, str) or not meeting_link.strip():
+            raise ValueError("Invalid meeting link")
+
+        pattern = (
+            r"^https://(meet\.google\.com/.+|"
+            r"zoom\.us/j/.+|"
+            r"teams\.microsoft\.com/.+)"
+        )
+        if not re.match(pattern, meeting_link.strip()):
+            raise ValueError("Invalid meeting link")
+
+        # Validate meeting name length (max 255 characters)
+        if meeting_name and len(meeting_name) > 255:
+            raise ValueError("Meeting name too long")
+
         self.click(self.MEETING_LINK_INPUT)
-        print("2")
         self.enter_text(self.MEETING_LINK_INPUT, meeting_link)
         if meeting_name:
             self.enter_text(self.MEETING_NAME_INPUT, meeting_name)
