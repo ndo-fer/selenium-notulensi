@@ -8,49 +8,27 @@ from pages.meeting_creation_page import MeetingCreationPage
 class TestMeetingCreation:
     @pytest.fixture(autouse=True)
     def setup(self, login_flow):
-        """Optimized setup with modal handling"""
+        """Login once and open meeting creation dialog for each test."""
         self.login_flow = login_flow
         self.meeting_page = MeetingCreationPage(login_flow.driver)
-        
-        # Login and handle any modals
-        self.login_flow.execute_login_flow(
-            email="valid@email.com",
-            password="validPassword"
-        )
-        
-        # Additional stabilization before opening dialog
-        # self.meeting_page.wait.until(
-        #     EC.invisibility_of_element_located((By.CSS_SELECTOR, ".loading-spinner")))
-        
-        # Open meeting dialog with retry
-        self.meeting_page.open_meeting_creation_dialog()
-        
-        yield
-        
-        # Cleanup with improved reliability
-        try:
-            self.meeting_page.close_meeting_creation_dialog()
-        except Exception as e:
-            self.meeting_page.take_screenshot("teardown_error")
-            self.meeting_page.driver.refresh()  # Reset state
-            
-    @pytest.fixture(autouse=True)
-    def setup(self, login_flow):
-        """Setup: Login and open meeting creation dialog"""
-        print("12")
-        print("Setup fixture started")
-        self.login_flow = login_flow
-        self.meeting_page = MeetingCreationPage(login_flow.driver)
+
+        # Perform login
         self.login_flow.execute_login_flow(
             email="nandopanjaitan003@gmail.com",
             password="Twice300403"
         )
-        print("1")
+
+        # Open meeting creation dialog
         self.meeting_page.open_meeting_creation_dialog()
-        print("2")
+
         yield
-        # # Teardown
-        # self.meeting_page.close_meeting_creation_dialog()
+
+        # Teardown: close dialog; driver cleanup handled by browser fixture
+        try:
+            if self.meeting_page.is_creation_dialog_open():
+                self.meeting_page.close_meeting_creation_dialog()
+        except Exception:
+            self.meeting_page.take_screenshot("teardown_error")
 
     # --- Online Meeting Tests ---
     def test_create_online_meeting_default(self):

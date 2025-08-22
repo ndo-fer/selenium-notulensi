@@ -52,9 +52,7 @@ class MeetingCreationPage(BasePage):
     
     def create_online_meeting(self, meeting_link, meeting_name=""):
         """Create online meeting with default Indonesia language"""
-        print("1")
         self.click(self.MEETING_LINK_INPUT)
-        print("2")
         self.enter_text(self.MEETING_LINK_INPUT, meeting_link)
         if meeting_name:
             self.enter_text(self.MEETING_NAME_INPUT, meeting_name)
